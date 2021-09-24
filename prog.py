@@ -23,7 +23,8 @@ criteria = ["what's the song name",
             "what song is used here",
             "can someone tell me the name of this song",
             "what’s the name of the song playing",
-            "what is the name of the song playing"]
+            "what is the name of the song playing",
+            "I need the name of this song"]
 
 for i in range(len(criteria)):
     sup = str(criteria[i])
