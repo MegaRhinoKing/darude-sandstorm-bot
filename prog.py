@@ -1,7 +1,7 @@
 import tweepy
 import json
 
-file = open('keys.json')
+file = open(r'darude-sandstorm-bot\keys.json')
 data = json.load(file)
 
 access_token = data["access_token"]
