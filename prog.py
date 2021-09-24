@@ -58,7 +58,7 @@ class MyStreamListener(tweepy.StreamListener):
         messagenew = f"@{tweet.user.screen_name} {message}"
         api.update_status(status=messagenew,
                             in_reply_to_status_id=tweet.id)
-        
+        api.create_favorite(tweet.id)
         print("Replied to",tweet.user.screen_name)
 
     #def on_status(self, tweet):
